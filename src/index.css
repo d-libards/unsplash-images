@@ -353,10 +353,14 @@ Search Form
   transition: var(--darkModeTransition);
   color: var(--textColor);
   border-radius: 0;
+  border-top-left-radius: var(--borderRadius);
+  border-bottom-left-radius: var(--borderRadius);
 }
 
 .search-form .btn {
   border-radius: 0;
+  border-top-right-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
 }
 
 .search-form .btn:hover {
